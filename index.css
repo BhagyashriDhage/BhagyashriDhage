@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500,700");
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.myname{
+	
+      color:#06399e;
+      font-family: "Roboto", sans-serif;
+	  font-weight: bolder;
+	  font-variant: small-caps;
+	  font-size: 35px;
+	   animation: textclip 2s linear infinite;
+	  background: linear-gradient(
+            to right, #4458dc,#942de3);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+}
+.mymenu{
+	font-size: 20px;
+	color: black;
+	font-weight: bolder;
+}
+.mymenu:hover{
+    background: linear-gradient(
+            to right, #4458dc,#942de3);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+}
+.navbar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+	width: 100%;
+}
+
+
+
+.maindiv{
+	width: 100%;
+	position: absolute;
+	top: 0px;
+}
+.dv{
+	width: 100%;
+}
+html{
+	scroll-behavior: smooth;
+}
+.home{
+ 		height:400px ;
+ 		margin-top:5px;
+ 		background-image: url('https://img.freepik.com/premium-vector/pretty-woman-is-sitting-desktop-office-employee-workplace-work-laptop-vector-illustration-cartoon-style_165429-1109.jpg');
+ 		background-repeat: no-repeat;
+ 		background-position: 95% 0px;
+ 		background-size:32%;
+ 		
+
+}
+.homeinfo{
+    	margin-top: 100px;
+		margin-left: 8%;
+}
+.infoname{
+			font-size: 35px;
+			font-weight: bolder;
+			background: linear-gradient(
+            to right, #4458dc,#942de3);
+			-webkit-text-fill-color: transparent;
+       	 	-webkit-background-clip: text;
+
+}
+
+.info{
+		font-size: 20px;
+		font-weight: bolder;
+}
+.infodev{
+  
+  	 font-size: 20px;
+  	 font-weight: bolder;
+
+}
+.btn{
+  padding-top: 2%;
+  	margin: 0px;
+
+}
+
+.btn button{
+	height: 40px;
+	width: 120px;
+	border: none;
+	background-image:linear-gradient(to right,#4458dc,#942de3);
+	border-radius:15px ;
+	color: white;
+	font-weight: bolder;
+	
+
+}
+
+.btn button:hover{
+
+	background-color: white;
+	border: 2px solid #942de3 ;
+	transform: scale(1.1);
+	transition-duration: 1s;
+	 background: linear-gradient(
+            to right, #4458dc,#942de3);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+}
+
+.skills{
+
+	height: 400px;
+	}
+.skillhead{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 25px;
+	
+}
+.skillinfo{
+	padding-top: 5px;
+	margin-left: 25%;
+}
+.about{
+/*    margin-top:10px;*/
+	height: 500px;
+	padding-top:2%;
+    background-color: #f8f9fa;
+	
+}
+.sectionheading{
+ margin-top:30px;
+ padding: 10px;
+ text-align: center;
+ font-size:35px;
+ font-weight: bolder;
+  background: linear-gradient(
+            to right, #4458dc,#942de3);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+}
+.aboutinfo{
+	margin-top: 15px;
+	padding-top: 10px;
+}
+.myphoto{
+	margin-left: 30%;
+	border-radius: 50%;
+
+	
+}
+.myphoto:hover{
+	transform: scale(1.1);
+	transition-duration: 1s;
+	box-shadow: black;
+}
+.co{
+	text-align: justify;
+	text-indent: 30px; 
+	font-size:23px;
+	margin-left:10%;"
+/*	padding-left:15%;*/
+}
+.skills{
+    height: 500px;
+	padding-top: 100px;
+/*	height: 500px;*/
+}
+/*.skillinfo{*/
+/*    padding-top: 20px;*/
+/*}*/
+.skdiv{
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 25px;
+}
+.sktable{
+	table-layout: fixed;
+}
+.td{
+	font-size: 17px;
+	width: 20%;
+	padding-left: 30px;
+	padding-top: 0px;
+}
+.th{
+	font-size: 20px;
+	padding-left: 35px;
+}
+.projects{
+
+	padding-top: 28px;
+	height: 1170px;
+	background-color: #f8f9fa ;
+	
+}
+.projectss{
+
+  margin: 20px 55px;
+
+}
+.card:hover{
+	 transform: scale(1.2);
+	transition-duration: 3s;
+	z-index: 1;
+}
+.click button{
+	height: 40px;
+	width: 120px;
+	border: none;
+	background-image:linear-gradient(to right,#4458dc,#942de3);
+	border-radius:15px ;
+	color: white;
+	font-weight: bolder;
+	margin-left: 35%;
+
+}
+
+
+ 
+.click button:hover{
+	background-color: white;
+	border: 2px solid #942de3 ;
+	transform: scale(1.1);
+	transition-duration: 1s;
+	 background: linear-gradient(
+            to right, #4458dc,#942de3);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+}
+.contact{
+	height: 450px;
+	
+}
+.contactinfo{
+    margin: 20px 55px;
+}
+input[type=text],input[type=email], textarea {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 14px;
+  margin-bottom: 10px;
+  resize: vertical;
+  margin-left:13%;
+}
+
+input[type=submit]{
+	height: 40px;
+	width: 120px;
+	border: none;
+	background-image:linear-gradient(to right,#4458dc,#942de3);
+	border-radius:15px ;
+	color: white;
+	font-weight: bolder;
+	margin-left: 45%;
+}
+input[type=submit]:hover{
+	background-color: white;
+	border: 2px solid #942de3 ;
+	transform: scale(1.1);
+	transition-duration: 1s;
+	 background: linear-gradient(
+            to right, #4458dc,#942de3);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+}
+.fonticon{
+
+	margin-left: 20%;
+	
+}
+.continfo:hover{
+
+	text-decoration: underline;
+}
+.conti{
+
+	margin-left:6%;
+	color: black;
+
+	
+}
+.conti:hover{
+	text-decoration: underline;
+	color: black;
+}
+.foot{
+	height: 150px;
+	background-color: grey;
+}
+
+.logo{
+	margin-top: 10px;
+	margin-left: 20px;
+}
